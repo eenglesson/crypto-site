@@ -1,10 +1,13 @@
 import CryptoCard from './CryptoCard';
-import './index.css';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <>
-      <CryptoCard />
+      <div className='flex bg-bg-1 w-[100vw] h-[100vh] justify-center items-center'>
+        <Navbar />
+        <CryptoCard />
+      </div>
     </>
   );
 }
