@@ -1,7 +1,12 @@
-import './App.css';
+import CryptoCard from './CryptoCard';
+import './index.css';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <CryptoCard />
+    </>
+  );
 }
 
 export default App;
