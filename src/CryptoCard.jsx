@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { cryptoCoins } from './fetchApi';
+import { cryptoCoins } from './javascript/fetchApi';
 
 function CryptoCard() {
   return (

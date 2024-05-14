@@ -3,10 +3,21 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {
+      maxWidth: {
+        '14xl': '1400px',
+        '16xl': '1600px',
+        '18xl': '1800px',
+        '11xl': '2000px', // Custom max width for 2000px
+      },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         jakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
+      backdropFilter: {
+        none: 'none',
+        blur: 'blur(30px)',
+      },
+
       fontSize: {
         xs: '12px',
         sm: '14px',
@@ -20,7 +31,7 @@ module.exports = {
           2: '#C2C2C2',
           3: '#ADA8C3',
           4: '#757185',
-          5: '#3F3A52',
+          5: '#828493',
           6: '#212525',
           7: '#15131D',
           8: '#0E0C15',
@@ -32,7 +43,8 @@ module.exports = {
           14: '#88889D',
         },
         bg: {
-          1: '#E8F3FF',
+          1: '#DEEEFF',
+          5: '#828493',
         },
       },
     },
