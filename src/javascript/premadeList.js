@@ -7,17 +7,17 @@ export const navItems = [
   {
     label: 'Dashboard',
     path: '/dashboard',
-    icon: MdOutlineSpaceDashboard, // Optional: if you want to include icons
+    icon: MdOutlineSpaceDashboard,
   },
   {
     label: 'Wallet',
     path: '/wallet',
-    icon: BiWallet, // Optional: for icon support
+    icon: BiWallet,
   },
   {
     label: 'Discover',
     path: '/discover',
-    icon: FiCompass, // Optional: to visually enhance the nav items
+    icon: FiCompass,
   },
   {
     label: 'Settings',
